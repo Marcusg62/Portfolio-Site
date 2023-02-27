@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="dist/output.css" rel="stylesheet">
+    <meta property="og:title" content="Marcus UI/UX Software Engineer" />
+    <meta property="og:description" content="I'm a software engineer & entrepenuer specializing in planning and building exceptional digital experiences. Currently, I'm searching for a great company to work with." />
+    <meta property="og:url" content="https://marcusuiux.com" />
+    <meta property="og:image" content="https://marcusuiux.com/images/preview.png" />
+</head>
+
+<body class="bg-slate-800 text-gray-100 w-full">
+    <div class="entrance bg-slate-800 my-auto flex justify-center align-middle" id="loader">
+        <div class="blob my-auto flex h-screen justify-center align-middle">
+            <img src="/images/MG LOGO@0.5x.png" alt="Marcus UI UX Logo" class="w-16 h-16 m-4">
+        </div>
+    </div>
+    <div>
+        <nav class="hidden sm:flex font-mono text-sm w-full flex-end px-2">
+            <a href="/" class="animate__animated animate__fadeInDown delay1">
+                <img src="/images/MG LOGO@0.5x.png" alt="Marcus UI UX Logo" class="w-16 h-16 m-4">
+                <ol class="flex justify-end mt-4 ml-auto mr-2">
+            </a>
+            <li class="hover:text-pink-400 flex animate__animated animate__fadeInDown delay2">
+                <a href="#about" class="my-auto"><span class="text-pink-400">[0]</span> About
+                </a>
+            </li>
+            <!-- <li class="mx-2 hover:text-pink-400 flex"><a href="#about" class="my-auto">
+                        <span class="text-pink-400">[1]</span> Experience</a>
+                </li>
+                <li class="mx-2 hover:text-pink-400 flex"><a href="#about" class="my-auto">
+                        <span class="text-pink-400">[2]</span> Work</a>
+                </li> -->
+            <li class="mx-2 hover:text-pink-400 flex animate__animated animate__fadeInDown delay3"><a href="#contact"
+                    class="my-auto">
+                    <span class="text-pink-400">[1]</span>
+                    Contact</a>
+            </li>
+            <li
+                class="rounded-sm px-6 py-2 border border-pink-400 ml-4 text-pink-400 font-medium animate__animated animate__fadeInDown delay4 my-auto">
+                <a href="/docs/Marcus Gallegos Resume.pdf">Resume</a>
+            </li>
+            </ol>
+        </nav>
+        <button id="menuToggle" onclick="toggleMenu()"
+            class="menuToggle block sm:hidden w-6 h-6 ml-auto mr-4 mt-4 cursor-pointer bg-gray-800 hover:fill-gray-100 fill-gray-300">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="ml-auto menuToggle">
+                <path class="menuToggle"
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
+        </button>
+        <div open="false" id="mobileMenu" class="mobileMenu absolute right-0 z-50 mt-2 w-56 origin-top-right rounded-md bg-slate-700 shadow-lg ring-1 ring-gray-600 hidden
+        focus:outline-none text-gray-300 border-gray-900" role="menu" aria-orientation="vertical"
+            aria-labelledby="menu-button" tabindex="-1">
+            <div class="py-1" role="none">
+                <nav class="font-mono text-sm w-full px-2">
+                    <ol class="flex flex-col">
+                        <li class="hover:text-pink-400 flex my-2">
+                            <a href="#about" class="my-auto"><span class="text-pink-400">[0]</span> About
+                            </a>
+                        </li>
+                        <li class="hover:text-pink-400 flex my-2"><a href="#contact" class="my-auto">
+                                <span class="text-pink-400">[1]</span>
+                                Contact</a>
+                        </li>
+                        <li class="rounded-sm px-6 py-2 border my-2 border-pink-400 text-pink-400 font-medium my-auto">
+                            <a href="/docs/Marcus Gallegos Resume.pdf">Resume</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="px-8 sm:px-14 max-w-2xl mx-auto">
+        <div class="container mx-auto">
+            <div class="mx-4">
+                <h1 class="mt-28 leading-loose">
+
+                    <span class="block font-mono text-pink-400 animate__animated animate__fadeInUp delayA">Hi, my
+                        name is</span>
+                    <span
+                        class="block text-3xl sm:text-5xl font-bold mt-4 leading-tight animate__animated animate__fadeInUp delayB">Marcus
+                        Gallegos</span>
+                </h1>
+                <h2
+                    class="leading-tight text-3xl sm:text-5xl font-bold text-gray-400 animate__animated animate__fadeInUp delayC">
+                    I love building products for the web. </h2>
+                <p class="text-gray-400 mt-4 animate__animated animate__fadeInUp delayD">I'm a software engineer &
+                    entrepenuer specializing in planning
+                    and
+                    building exceptional digital experiences. Currently, I'm searching for a great company to work
+                    with.
+                </p>
+                <section id="about" class="mt-56">
+                    <h3 class="text-xl flex flex-wrap mb-8 aboutSectionHeader">
+                        <span class="font-mono text-pink-400">$Marcus[0]</span> <span
+                            class="font-bold ml-2 text-gray-300 bg-gray-800"> About Me</span>
+                    </h3>
+                    <div class="sm:hidden my-4">
+                        <img src="./images/12100.jpg" alt="Marcus Gallegos Profile Pic">
+                    </div>
+                    <div class="flex">
+                        <div class="text-gray-400">
+                            <p class="mb-2">
+                                Hello! My name is Marcus and I enjoy creating things that live on the internet. My
+                                interest
+                                in web
+                                development started back in 2016 while I was supposed to be programming linked lists
+                                and
+                                binary
+                                trees in data-structures class - I wanted to create things that people could
+                                actually
+                                use!
+                            </p>
+                            <p class="mb-2">
+                                I would go on to Co-found and lead Inhouse Orders where I raised funds investment
+                                from
+                                Rutt Bridges Venture Fund and
+                                build
+                                Inhouse Orders to reach a mature product stage and have recently decided to hand the
+                                reigns
+                                of
+                                the company to my business partner.
+                            </p>
+                            <p class="mb-2">
+                                These days I am focused on finding a new role where my experience in building
+                                sustainable coding practices such as well designed dev-ops and bullet-proof
+                                end-to-end
+                                testing.
+                            </p>
+                            <div class="my-2 flex flex-wrap">
+                                <p class="w-full mb-2">Here are a few technologies I’ve been working with recently:
+                                </p>
+                                <div class="my-2 flex flex-wrap justify-center">
+                                    <ul>
+                                        <li>JavaScript</li>
+                                        <li>Angular</li>
+                                        <li>React/NextJS</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Node.js</li>
+                                        <li>TypeScript</li>
+                                        <li>Firebase</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden sm:block">
+                            <img class="" src="./images/12100.jpg" alt="Marcus Gallegos Profile Pic">
+                        </div>
+
+
+                    </div>
+
+                </section>
+                <!-- <section id="experience" class="mt-20">
+                        Marcus[1] Experience
+                    </section>
+                    <section id="work" class="mt-20">
+                        Marcus[2] Work
+                    </section> -->
+                <section id="contact" class="mt-28 ">
+                    <h3 class="text-xl flex flex-wrap mb-8 aboutSectionHeader">
+                        <span class="font-mono text-pink-400">$Marcus[1]</span> <span
+                            class="font-bold ml-2 text-gray-300 bg-gray-800"> Contact</span>
+                    </h3>
+                    <div class="flex justify-center flex-wrap">
+                        <p class="text-3xl font-bold text-center text-gray-300 w-full">Get In Touch</p>
+                        <p class="mt-4 text-center text-gray-400 w-full">I'm looking for the next great chapter in
+                            my career.
+                            Send me an email to get the conversation going!</p>
+                        <a href="mailto:marcusuiux@gmail.com"
+                            class="rounded-sm px-6 py-3 border border-pink-400 ml-4 text-pink-400 font-medium font-mono my-8">Say
+                            Hello</a>
+                    </div>
+                </section>
+
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <footer class="mt-28 mb-8">
+
+
+        <div class="sm:hidden flex flex-wrap justify-center">
+            <a href="https://www.youtube.com/channel/UChbS-YZilZ5AK_XlP2VHjpQ">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="w-6 h-6 fill-gray-400 mx-2">
+                    <path
+                        d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
+                </svg>
+            </a>
+            <a href="https://github.com/Marcusg62" class="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="w-6 h-6 fill-gray-400 mx-2">
+                    <path
+                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/marcus-gallegos/">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 h-6 fill-gray-400 mx-2">
+                    <path
+                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                </svg>
+            </a>
+
+            <a href="https://www.tiktok.com/@marcusuiux">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 h-6 fill-gray-400 mx-2">
+                    <path
+                        d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" />
+                </svg>
+
+            </a>
+        </div>
+
+
+        <p
+            class="font-mono text-sm font-extralight text-gray-400 tracking-wider bg-gray-800 delaySocial sm:hidden text-center my-4">
+            marcusuiux@gmail.com</p>
+
+
+        <p class="font-mono text-gray-400 text-xs text-center">Design Inspired By: <a
+                href="https://brittanychiang.com/">Brittany Chiang</a></p>
+
+    </footer>
+    <p
+        class="emailText font-mono text-sm  font-extralight text-gray-400 tracking-wider bg-gray-800 delaySocial animate__animated animate__fadeInUp hidden sm:block">
+        marcusuiux@gmail.com</p>
+
+    <div class="socialLinks flex-col w-6 delaySocial animate__animated animate__fadeInUp hidden sm:block">
+        <a href="https://www.youtube.com/channel/UChbS-YZilZ5AK_XlP2VHjpQ">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="w-6 h-6 fill-gray-400 my-4">
+                <path
+                    d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
+            </svg>
+        </a>
+        <a href="https://github.com/Marcusg62" class="">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="w-6 h-6 fill-gray-400 my-4">
+                <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+            </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/marcus-gallegos/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 h-6 fill-gray-400 my-4">
+                <path
+                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+            </svg>
+        </a>
+
+        <a href="https://www.tiktok.com/@marcusuiux">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 h-6 fill-gray-400 my-4">
+                <path
+                    d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" />
+            </svg>
+
+        </a>
+    </div>
+</body>
+<script>
+    setTimeout(() => {
+        let entrance = document.getElementById('loader');
+        entrance.setAttribute("closing", "")
+        entrance.addEventListener("animationend", () => {
+            entrance.classList.add(["hidden"])
+        })
+    }, 3000)
+
+
+
+    function toggleMenu() {
+        let menu = document.getElementById("mobileMenu")
+
+        if (menu.getAttribute('open') == "true") {
+            menu.setAttribute("open", "false")
+        } else {
+            menu.setAttribute("open", "true")
+        }
+        menu.classList.toggle("hidden");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.menuToggle')
+            && !document.getElementById('mobileMenu').classList.contains('hidden')
+        ) {
+            let menu = document.getElementById("mobileMenu")
+            menu.setAttribute("open", 'false')
+            menu.setAttribute("open", "false")
+            document.getElementById("mobileMenu").classList.add(["hidden"]);
+        }
+    }
+
+
+</script>
+
+</html>
